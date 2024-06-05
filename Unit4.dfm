@@ -6,14 +6,15 @@ object DataModule4: TDataModule4
   Width = 508
   object ZConnection1: TZConnection
     ControlsCodePage = cGET_ACP
-    AutoEncodeStrings = False
+    Properties.Strings = (
+      'AutoEncodeStrings=ON')
     Connected = True
     HostName = 'localhost'
     Port = 3306
     Database = 'db_penjualan'
     User = 'root'
     Protocol = 'mysql'
-    LibraryLocation = 'C:\Users\acer\Downloads\libmysql.dll'
+    LibraryLocation = 'C:\Users\LAPTOP MSI\Downloads\libmysql.dll'
     Left = 64
     Top = 64
   end
